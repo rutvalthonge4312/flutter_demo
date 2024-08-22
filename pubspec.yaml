@@ -1,0 +1,64 @@
+name: wrms.app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.5
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^12.0.0
+  intl: ^0.19.0
+  http: ^1.2.1
+  provider: ^6.1.2
+  pinput: ^5.0.0
+  dropdown_search: ^5.0.6
+  fluttertoast: ^8.0.9
+  image_picker: 1.1.2
+  dio: 5.4.3+1
+  mime: 1.0.5
+  path: ^1.8.0
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.2.3
+  open_app_settings: ^2.0.1
+  collection: ^1.18.0
+  universal_html: ^2.2.4
+  google_sign_in: ^6.2.1
+  video_player: ^2.2.18
+  chewie: ^1.8.1
+  url_launcher: ^6.3.0
+  path_provider: ^2.1.4
+  open_filex: ^4.4.0
+  downloads_path_provider_28: ^0.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Applogo.png"
+  
+  
+
+flutter:
+  assets:
+    - assets/image.png
+    - assets/otpImage2.png
+    - assets/otpImage.png
+    - assets/coach.png
+    - assets/forgotImage.png
+    - assets/verified.png
+    - assets/image_exists.jpg
+    - assets/videos.png
+    - assets/video_exists.png
+    - assets/google.png
+    - assets/Add.gif
+    - assets/Reload.gif
+  uses-material-design: true
